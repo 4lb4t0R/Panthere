@@ -277,6 +277,24 @@ a:hover {
 	margin-left: 0;
 }
 
+.orange {
+	background-color: rgb(139, 79, 50);
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+}
+
+.noir {
+	color: #000000;
+}
+
+.blanc {
+	padding-top: 1rem;
+	color: white !important;
+}
+
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
 	padding-right: 0;
