@@ -601,9 +601,6 @@ a[data-lightbox]:hover img {
 	color: #fff;
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
-	left: 15px;
-	right: 15px;
-	bottom: 5px;
 }
 
 .close-lightbox {
@@ -671,7 +668,7 @@ label,
 a {
 	font-family: "helvetica";
 	font-weight: 400;
-	color: #575757 !important;
+	color: white !important;
 }
 
 .container {
@@ -722,6 +719,7 @@ p {
 .social {
 	max-width: 400px;
 	margin: auto auto auto auto;
+	padding-bottom: 1rem;
 }
 
 h2 {
@@ -761,6 +759,7 @@ h4 {
 
 .portfolio-thumb {
 	margin-bottom: 24px;
+	padding-left: 7rem;
 }
 
 .portfolio-row {
@@ -842,7 +841,7 @@ h4 {
 }
 
 .bg-presentation {
-	background-image: url("img/image-de-presentation.bmp");
+	background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
