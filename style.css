@@ -292,6 +292,7 @@ a:hover {
 
 .blanc {
 	padding-top: 1rem;
+	padding-bottom: 1rem;
 	color: white !important;
 }
 
@@ -668,7 +669,7 @@ label,
 a {
 	font-family: "helvetica";
 	font-weight: 400;
-	color: white !important;
+	color: #202020 !important;
 }
 
 .container {
@@ -798,12 +799,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-	background: #f3976c;
+	background: #8c2703;
 	color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-	background: #c27956 !important;
+	background: #8c2703 !important;
 	color: #ffffff !important;
 }
 
