@@ -196,6 +196,8 @@ a:hover {
 .d-bloc .panel,
 .l-bloc {
 	color: #f3976c !important;
+	display: flex;
+	justify-content: center;
 }
 
 .d-bloc .panel button:hover,
@@ -333,11 +335,15 @@ a:hover {
 .navbar-brand img[src$="svg"] {
 	min-width: 100px;
 }
-
+.col-sm-12 {
+	margin-left: 35rem;
+}
 .nav-center .navbar-brand img {
 	margin: 0;
 }
-
+.col-sm-4 {
+	padding-top: 2rem;
+}
 .navbar .nav {
 	padding-top: 2px;
 	margin-right: -16px;
@@ -366,7 +372,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-	background: transparent !important;
+	background: #f3976c !important;
 }
 
 .navbar-toggle .icon-bar {
@@ -533,6 +539,11 @@ button {
 	border-color: rgba(0, 0, 0, 0.1);
 	box-shadow: none;
 	margin-left: 3rem;
+}
+
+.form-group {
+	padding-bottom: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .scrollToTop {
@@ -724,6 +735,11 @@ p {
 	padding: 12px 28px 12px 28px;
 	font-size: 16px;
 	font-weight: 700;
+	margin-left: 9rem;
+}
+.col-sm-6 > p {
+	padding-left: 5rem;
+	padding-top: 1rem;
 }
 
 .social {
@@ -804,7 +820,7 @@ h4 {
 }
 
 .tc-white {
-	color: #f3976c !important;
+	color: white !important;
 }
 
 .btn-atomic-tangerine {
