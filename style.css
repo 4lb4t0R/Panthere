@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: black;
+	background-color: black;
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-	color: rgba(0, 0, 0, 0.5);
+	color: #f3976c !important;
 }
 
 .d-bloc .panel button:hover,
@@ -324,6 +324,10 @@ a:hover {
 	max-height: 200px;
 	margin: 0 5px 0 0;
 	display: inline;
+	filter: invert(86%) sepia(18%) saturate(5468%) hue-rotate(313deg)
+		brightness(100%) contrast(91%);
+	-webkit-filter: invert(86%) sepia(18%) saturate(5468%) hue-rotate(313deg)
+		brightness(100%) contrast(91%);
 }
 
 .navbar-brand img[src$="svg"] {
@@ -665,11 +669,15 @@ h5,
 h6,
 p,
 label,
-.btn,
+.btn {
+	font-family: "helvetica";
+	font-weight: 400;
+	color: #f3976c !important;
+}
 a {
 	font-family: "helvetica";
 	font-weight: 400;
-	color: #202020 !important;
+	color: white !important;
 }
 
 .container {
@@ -746,7 +754,7 @@ h1 {
 }
 
 h4 {
-	color: #333333 !important;
+	color: #f3976c !important;
 }
 
 .icons {
@@ -783,15 +791,15 @@ h4 {
 }
 
 .bgc-white {
-	background-color: #ffffff;
+	background-color: black;
 }
 
 .bgc-dark-slate-blue {
-	background-color: #364577;
+	background-color: #364577 !important;
 }
 
 .bgc-atomic-tangerine {
-	background-color: #f3976c;
+	background-color: #8c2703;
 }
 
 .tc-white {
@@ -825,7 +833,7 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-	color: #364577 !important;
+	color: #f3976c !important;
 	border-color: #364577 !important;
 }
 
