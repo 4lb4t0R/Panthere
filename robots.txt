@@ -1,9 +1,9 @@
 User-agent : Googlebot
 Allow : index.html
 Allow : contact.html
-Disallow : css
-Disallow : fonts
-Disallow : img
-Disallow : includes
-Disallow : js
+Disallow : /css
+Disallow : /fonts
+Disallow : /img
+Disallow : /includes
+Disallow : /js
 Disallow : favicon.jpg
