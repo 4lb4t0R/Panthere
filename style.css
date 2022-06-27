@@ -345,7 +345,7 @@ a:hover {
 	padding-top: 2rem;
 	text-align: center;
 }
-.col-sm-4 > li {
+.col-sm-4 > ul {
 	padding-bottom: 0.5rem;
 }
 .navbar .nav {
