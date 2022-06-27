@@ -394,10 +394,14 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+	.site-navigation > li {
+		padding-right: 3rem;
+	}
 	.site-navigation {
 		position: absolute;
 		top: 50%;
-		right: 20px;
+		padding-right: 3rem;
+		right: 5rem;
 		transform: translate(0, -50%);
 		-webkit-transform: translateY(-50%);
 	}
