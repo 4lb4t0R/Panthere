@@ -335,9 +335,7 @@ a:hover {
 .navbar-brand img[src$="svg"] {
 	min-width: 100px;
 }
-.col-sm-12 {
-	margin-left: 35rem;
-}
+
 .nav-center .navbar-brand img {
 	margin: 0;
 }
@@ -735,7 +733,6 @@ p {
 	padding: 12px 28px 12px 28px;
 	font-size: 16px;
 	font-weight: 700;
-	margin-left: 9rem;
 }
 .col-sm-6 > p {
 	padding-left: 5rem;
