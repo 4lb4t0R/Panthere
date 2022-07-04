@@ -287,7 +287,9 @@ a:hover {
 	-ms-border-radius: 30px;
 	-o-border-radius: 30px;
 }
-
+h1 {
+	font-size: 26px;
+}
 .noir {
 	color: #000000;
 }
