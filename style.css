@@ -280,7 +280,7 @@ a:hover {
 }
 
 .orange {
-	background-color: rgb(135, 51, 11);
+	background-color: rgb(135, 51, 11) !important;
 	border-radius: 30px;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
