@@ -354,6 +354,35 @@ h1 {
 	z-index: 1;
 }
 
+h5 {
+	font-size: 18px;
+}
+/*partie focus pour accessibilité*/
+
+.navbar-brand:focus {
+	border: 2px solid rgb(135, 51, 11);
+}
+.nav > li a:focus {
+	border: 2px solid rgb(135, 51, 11);
+}
+.btn-atomic-tangerine:focus {
+	border: 4px solid black;
+}
+.col-sm-4:focus {
+	border: 2px solid rgb(135, 51, 11);
+}
+.col-sm-12 > a:focus {
+	border: 4px solid black;
+}
+.col-sm-6 > a:focus {
+	border: 2px solid rgb(135, 51, 11);
+}
+.col-sm-3 > a:focus {
+	border: 4px solid black;
+}
+
+/*fin*/
+
 .nav > li {
 	float: left;
 	margin-top: 4px;
